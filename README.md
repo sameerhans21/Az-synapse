@@ -14,7 +14,7 @@ A simple way to use SQL to transform data in a file and persist the results in a
 Apache Spark applications run as independent sets of processes on a cluster, coordinated by the SparkContext object in your main program (called the driver program). The SparkContext connects to the cluster manager, which allocates resources across applications using an implementation of Apache Hadoop YARN. Once connected, Spark acquires executors on nodes in the cluster to run your application code.
 
 The SparkContext runs the main function and parallel operations on the cluster nodes, and then collects the results of the operations. The nodes read and write data from and to the file system and cache transformed data in-memory as Resilient Distributed Datasets (RDDs).
-![spark_overview](./sp.png)
+![spark_overview](./images/sp.png)
 
 ### 3) Use Delta Lake in Azure Synapse Analytics
 <u><i>use a Spark pool in Azure Synapse Analytics to create and query Delta Lake tables, and query Delta Lake data from a serverless SQL pool</i></u>
@@ -41,3 +41,4 @@ Azure Synapse Analytics dedicated SQL pools use a massively parallel processing 
  <u><i>implement a run an Azure Synapse Analytics pipeline that transfers and transforms data</i></u>
 
 Pipelines in Azure Synapse Analytics encapsulate a sequence of activities that perform data movement and processing tasks. You can use a pipeline to define data transfer and transformation activities, and orchestrate these activities through control flow activities that manage branching, looping, and other typical processing logic.
+![pipeline](./images/pipeline.png)
