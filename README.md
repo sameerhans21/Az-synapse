@@ -17,6 +17,7 @@ The SparkContext runs the main function and parallel operations on the cluster n
 ![spark_overview](./sp.png)
 
 ### 3) Use Delta Lake in Azure Synapse Analytics
+<u><i>use a Spark pool in Azure Synapse Analytics to create and query Delta Lake tables, and query Delta Lake data from a serverless SQL pool</i></u>
 
-
+Delta Lake is an open-source storage layer that adds relational database semantics to Spark-based data lake processing.
 
