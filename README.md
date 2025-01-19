@@ -11,4 +11,9 @@ A simple way to use SQL to transform data in a file and persist the results in a
 ### 2) Analyze data with Apache Spark in Azure Synapse Analytics
 <u><i>use a Spark pool to analyze and visualize data from files in a data lake</i></u>
 
+Apache Spark applications run as independent sets of processes on a cluster, coordinated by the SparkContext object in your main program (called the driver program). The SparkContext connects to the cluster manager, which allocates resources across applications using an implementation of Apache Hadoop YARN. Once connected, Spark acquires executors on nodes in the cluster to run your application code.
+
+The SparkContext runs the main function and parallel operations on the cluster nodes, and then collects the results of the operations. The nodes read and write data from and to the file system and cache transformed data in-memory as Resilient Distributed Datasets (RDDs).
+![spark_overview](sp.PNG)
+
 
