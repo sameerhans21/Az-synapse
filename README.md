@@ -16,4 +16,7 @@ Apache Spark applications run as independent sets of processes on a cluster, coo
 The SparkContext runs the main function and parallel operations on the cluster nodes, and then collects the results of the operations. The nodes read and write data from and to the file system and cache transformed data in-memory as Resilient Distributed Datasets (RDDs).
 ![spark_overview](./sp.png)
 
+### 3) Use Delta Lake in Azure Synapse Analytics
+
+
 
