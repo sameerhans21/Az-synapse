@@ -29,7 +29,13 @@ Delta Lake is an open-source storage layer that adds relational database semanti
 <i>a surrogate key </i>that is specific to the data warehouse and uniquely identifies each row in the dimension table in the data warehouse - usually an incrementing integer number.<br>
 <i>An alternate key</i>, often a natural or business key that is used to identify a specific instance of an entity in the transactional source system from which the entity record originated - such as a product code or a customer ID.<br>
 
-<li>Fact tables: store details of observations or events; for example, sales orders, stock balances, exchange rates, or recorded temperatures. A fact table contains columns for numeric values that can be aggregated by dimensions
+<li>Fact tables: store details of observations or events; for example, sales orders, stock balances, exchange rates, or recorded temperatures. A fact table contains columns for numeric values that can be aggregated by dimensions<br><br>
+
+Azure Synapse Analytics dedicated SQL pools use a massively parallel processing (MPP) architecture. In an MPP system, the data in a table is distributed for processing across a pool of nodes. Synapse Analytics supports the following kinds of distribution:
+
+<li>Hash: A deterministic hash value is calculated for the specified column and used to assign the row to a compute node.
+<li>Round-robin: Rows are distributed evenly across all compute nodes.
+<li>Replicated: A copy of the table is stored on each compute node.
 
 ### 5) Build a data pipeline in Azure Synapse Analytics
  <u><i>implement a run an Azure Synapse Analytics pipeline that transfers and transforms data</i></u>
