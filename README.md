@@ -4,11 +4,11 @@
 <iI><b>Synapse Studio</b> is a web-based portal in which you can manage and work with the resources in your Azure Synapse Analytics workspace.</i>
 
 ### 1) Use Azure Synapse serverless SQL pool to query files in a data lake
-<u>use a serverless SQL pool to query data files in a data lake</u>
+<u><i>use a serverless SQL pool to query data files in a data lake</i></u>
 <li>Transform data using CREATE EXTERNAL TABLE AS SELECT (CETAS) statements</li>
 A simple way to use SQL to transform data in a file and persist the results in another file is to use a CREATE EXTERNAL TABLE AS SELECT (CETAS) statement. This statement creates a table based on the requests of a query, but the data for the table is stored as files in a data lake. The transformed data can then be queried through the external table, or accessed directly in the file system (for example, for inclusion in a downstream process to load the transformed data into a data warehouse).
 
 ### 2) Analyze data with Apache Spark in Azure Synapse Analytics
-<u>use a Spark pool to analyze and visualize data from files in a data lake</u>
+<u><i>use a Spark pool to analyze and visualize data from files in a data lake</i></u>
 
 
