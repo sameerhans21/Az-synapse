@@ -21,3 +21,6 @@ The SparkContext runs the main function and parallel operations on the cluster n
 
 Delta Lake is an open-source storage layer that adds relational database semantics to Spark-based data lake processing.
 
+### 4) Analyze data in a relational data warehouse
+
+ <u><i>explore a data warehouse</i></u>
