@@ -30,3 +30,6 @@ Delta Lake is an open-source storage layer that adds relational database semanti
 <i>An alternate key</i>, often a natural or business key that is used to identify a specific instance of an entity in the transactional source system from which the entity record originated - such as a product code or a customer ID.<br>
 
 <li>Fact tables: store details of observations or events; for example, sales orders, stock balances, exchange rates, or recorded temperatures. A fact table contains columns for numeric values that can be aggregated by dimensions
+
+### 5) Build a data pipeline in Azure Synapse Analytics
+ <u><i>implement a run an Azure Synapse Analytics pipeline that transfers and transforms data</i></u>
