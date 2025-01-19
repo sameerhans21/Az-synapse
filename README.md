@@ -42,3 +42,9 @@ Azure Synapse Analytics dedicated SQL pools use a massively parallel processing 
 
 Pipelines in Azure Synapse Analytics encapsulate a sequence of activities that perform data movement and processing tasks. You can use a pipeline to define data transfer and transformation activities, and orchestrate these activities through control flow activities that manage branching, looping, and other typical processing logic.<br>
 ![pipeline](./images/pipeline.png)
+
+A Data Flow is a commonly used activity type to define data flow and transformation. Data flows consist of:
+
+<li>Sources - The input data to be transferred.
+<li>Transformations – Various operations that you can apply to data as it streams through the data flow.
+<li>Sinks – Targets into which the data will be loaded.
