@@ -39,3 +39,5 @@ Azure Synapse Analytics dedicated SQL pools use a massively parallel processing 
 
 ### 5) Build a data pipeline in Azure Synapse Analytics
  <u><i>implement a run an Azure Synapse Analytics pipeline that transfers and transforms data</i></u>
+
+Pipelines in Azure Synapse Analytics encapsulate a sequence of activities that perform data movement and processing tasks. You can use a pipeline to define data transfer and transformation activities, and orchestrate these activities through control flow activities that manage branching, looping, and other typical processing logic.
