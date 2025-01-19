@@ -24,3 +24,7 @@ Delta Lake is an open-source storage layer that adds relational database semanti
 ### 4) Analyze data in a relational data warehouse
 
  <u><i>explore a data warehouse</i></u>
+<li> Dimension tables: Dimension tables describe business entities, such as products, people, places, and dates. Dimension tables contain columns for attributes of an entity. For example, a customer entity might have a first name, a last name, an email address, and a postal address.  They include two key columns:
+
+<i>a surrogate key </i>that is specific to the data warehouse and uniquely identifies each row in the dimension table in the data warehouse - usually an incrementing integer number.
+<i>An alternate key</i>, often a natural or business key that is used to identify a specific instance of an entity in the transactional source system from which the entity record originated - such as a product code or a customer ID.
