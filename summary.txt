@@ -7,3 +7,13 @@ Technologies: Azure Synapse Analytics, PySpark, SQL, Data Lake, Delta Lake
   Implemented Delta Lake tables for ACID-compliant data processing and optimized storage.
   Designed and managed ETL workflows using Azure Synapse Pipelines, automating data movement and transformations.
   Ensured optimized performance using massively parallel processing (MPP) in Synapse's dedicated SQL pools.
+
+
+Network Monitoring and Analytics with FlexRIC & Azure Synapse
+Technologies: FlexRIC (Near-RT RIC), xApp, Azure Blob Storage, Azure Synapse Analytics, JSON, PySpark
+
+  Deployed FlexRIC in simulation mode with a gNB agent (emu_agent_gnb), Near-RT RIC, and an xApp to monitor network performance.
+  Captured and processed real-time network monitoring logs from the xApp, converting them into structured JSON files.
+  Automated the ingestion of monitoring data into Azure Blob Storage for centralized storage and further processing.
+  Integrated Azure Synapse Analytics to analyze and visualize network insights using PySpark and SQL queries.
+  Developed a cloud-based data pipeline for efficient monitoring, storage, and analysis of RAN performance metrics.
