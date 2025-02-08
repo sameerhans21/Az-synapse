@@ -1,0 +1,9 @@
+Azure Synapse Analytics Data Pipeline
+Technologies: Azure Synapse Analytics, PySpark, SQL, Data Lake, Delta Lake
+
+  Developed and deployed a data pipeline in Azure Synapse Analytics for data ingestion, transformation, and storage.
+  Queried data from an Azure Data Lake using serverless SQL pools and created external tables with CETAS for efficient querying.
+  Used Apache Spark pools to analyze and visualize large datasets stored in the data lake.
+  Implemented Delta Lake tables for ACID-compliant data processing and optimized storage.
+  Designed and managed ETL workflows using Azure Synapse Pipelines, automating data movement and transformations.
+  Ensured optimized performance using massively parallel processing (MPP) in Synapse's dedicated SQL pools.
