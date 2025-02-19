@@ -5,11 +5,11 @@
 Network Monitoring and Analytics with FlexRIC & Azure Synapse
 Technologies: FlexRIC (Near-RT RIC), xApp, Azure Blob Storage, Azure Synapse Analytics, JSON, PySpark
 
-  Deployed FlexRIC in simulation mode with a gNB agent (emu_agent_gnb), Near-RT RIC, and an xApp to monitor network performance.
-  Captured and processed real-time network monitoring logs from the xApp, converting them into structured JSON files.
-  Automated the ingestion of monitoring data into Azure Blob Storage for centralized storage and further processing.
-  Integrated Azure Synapse Analytics to analyze and visualize network insights using PySpark and SQL queries.
-  Developed a cloud-based data pipeline for efficient monitoring, storage, and analysis of RAN performance metrics.
+  Deployed FlexRIC in simulation mode with a gNB agent (emu_agent_gnb), Near-RT RIC, and an xApp to monitor network performance.<br>
+  Captured and processed real-time network monitoring logs from the xApp, converting them into structured JSON files.<br>
+  Automated the ingestion of monitoring data into Azure Blob Storage for centralized storage and further processing.<br>
+  Integrated Azure Synapse Analytics to analyze and visualize network insights using PySpark and SQL queries.<br>
+  Developed a cloud-based data pipeline for efficient monitoring, storage, and analysis of RAN performance metrics.<br>
 
   1. Modify xApp to Stream Logs Directly – AZURE EVENT HUB
   
