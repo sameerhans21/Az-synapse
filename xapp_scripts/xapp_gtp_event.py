@@ -11,7 +11,7 @@ import json
 
 # Azure EVENT-HUB
 EVENT_HUB_NAME = "bubble-eventtest"
-EVENT_HUB_CONNECTION_STRING = "Endpoint=sb://bubble-event.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ithTuhFlPGwr1ZNOyZ17HLPmdgjZ34rXY+AEhLfiqdI="
+EVENT_HUB_CONNECTION_STRING = "Endpoint=xxx"
 
 # Initialize the Event Hub Producer Client
 producer = EventHubProducerClient.from_connection_string(
