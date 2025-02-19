@@ -10,9 +10,9 @@ import json
 
 # Azure Storage Account Configuration
 STORAGE_ACCOUNT_NAME = "datalakefv41bzh"
-STORAGE_ACCOUNT_KEY = "XHQUVfRfT48BfBe8BKJVuqTQUh08xRHUrAxin8ys7uoQ8MfHgP2dDVVL6DErBZWL/ZZ4qnga6xWI+ASt1vRXYg=="
+STORAGE_ACCOUNT_KEY = "xxx"
 CONTAINER_NAME = "bubble-mac"
-BLOB_NAME="logs_mikel.json"
+BLOB_NAME="logs.json"
 # Initialize the Blob Service Client
 blob_service_client = BlobServiceClient(account_url=f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net", credential=STORAGE_ACCOUNT_KEY)
 
